@@ -50,8 +50,14 @@ def move():
 
     clear()
 
+    snake_bodies = len(snake)
     for body in snake:
-        square(body.x, body.y, 9, 'black')
+        if snake_bodies % 2 == 0:
+            square(body.x, body.y, 9, 'blue')
+        else:
+            square(body.x, body.y, 9, 'black')
+
+        snake_bodies -= 1
 
     square(food.x, food.y, 9, 'green')
     update()
