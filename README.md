@@ -1,1 +1,3 @@
-# Semana_Tec_HC
+# Pacman
+
+Se cambió los colores del tablero y las velocidades de los fantasmas.
