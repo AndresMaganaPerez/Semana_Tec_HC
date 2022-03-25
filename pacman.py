@@ -111,8 +111,8 @@ def move():
         square(x, y)
 
     up()
-    goto(pacman.x + 10, pacman.y + 10)
-    dot(20, 'yellow')
+    goto(pacman.x + 10, pacman.y + 10)  # Movimientos de Pacman.
+    dot(20, 'green')   # Tamaño y color de Pacman.
 
     for point, course in ghosts:
         if valid(point + course):
