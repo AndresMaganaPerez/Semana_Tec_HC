@@ -117,12 +117,12 @@ def move():
     for point, course in ghosts:
         if valid(point + course):
             point.move(course)
-        else:
+        else:       # Determina la velocidad de los fantasmas. Estado Inicial = 5.
             options = [
-                vector(5, 0),
-                vector(-5, 0),
-                vector(0, 5),
-                vector(0, -5),
+                vector(10, 0),
+                vector(-10, 0),
+                vector(0, 10),
+                vector(0, -10),
             ]
             plan = choice(options)
             course.x = plan.x
