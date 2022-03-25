@@ -74,9 +74,9 @@ def valid(point):
     return point.x % 20 == 0 or point.y % 20 == 0
 
 def world():
-    "Draw world using path."
-    bgcolor('black')
-    path.color('blue')
+    "Draw world using path."    # Función para crear el mapa.
+    bgcolor('black')    # Color de Fondo.
+    path.color('yellow')  # Color de los caminos.
 
     for index in range(len(tiles)):
         tile = tiles[index]
