@@ -1,3 +1,6 @@
-# Pacman
+# Semana Tec Herramientas Computacionales
 
-Se cambió los colores del tablero y las velocidades de los fantasmas.
+Equipo:
+- Grant Keegan
+- Carlos Hurtado
+- Andrés Magaña 
